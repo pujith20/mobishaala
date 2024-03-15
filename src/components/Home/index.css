@@ -1,0 +1,86 @@
+*{
+  font-family: "Roboto";
+}
+
+.home-con {
+  background-image: url("..//assets/bg.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading{
+  font-style: italic;
+  font-weight: 700;
+}
+.btn-con-3 button div{
+  display: flex;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-warning {
+  color: #ffc107;
+}
+
+.btn-con-1,
+.btn-con-2,
+.btn-con-3 {
+  margin-top: 10px;
+}
+
+.logo-img {
+  height: 30px;
+  padding-right: 5px;
+  padding-top: 4px;
+}
+
+.video-con{
+  display: flex;
+  align-self: center;
+  text-align: center;
+}
+
+.video {
+  border-style: none;
+  border-radius: 8px;
+}
+
+.details-con {
+  text-align: left;
+  margin-top: 24px;
+  padding: 24px;
+  color: white;
+}
+
+.vision-con span,
+.address-con span {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .home-con {
+    background-image: url("..//assets/bg.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+  }
+  .video {
+    margin-top: 20px; /* Adjust margin for better spacing */
+  }
+  .btn-con-3 {
+    text-align: center;
+    margin-top: 20px; /* Add margin-top to center the button */
+  }
+  .btn-con-3 button div{
+    display: flex;
+  }
+}
+
